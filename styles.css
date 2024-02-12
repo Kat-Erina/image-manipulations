@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.child-section {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+  position: absolute;
+
+  transform: translateX(-55%);
+  z-index: 2;
+}
+
+.texts {
+  height: 50vh;
+  width: 70%;
+  padding-top: 25px;
+  z-index: 5;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+}
+.tooltip {
+  border: 1px slid black;
+  height: 100%;
+  width: 100%;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  width: 100%;
+  transition: all 0.3s ease-in;
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgba(218, 212, 212, 0.9);
+  text-align: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover {
+  background-color: rgba(78, 75, 75, 0.5);
+  cursor: pointer;
+}
